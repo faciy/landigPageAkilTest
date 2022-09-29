@@ -53,7 +53,8 @@ const Actualites = () => {
                 paddingInline: 2,
               }}
             >
-              <img src={Team} width={"100%"} height={300} />
+              <Box component='img' src={Team} sx={{ borderRadius:5,width:"100%", height:300}}>
+              </Box>
               <Typography
                 sx={{
                   marginTop: 3,
@@ -98,7 +99,8 @@ const Actualites = () => {
                 paddingInline: 2,
               }}
             >
-              <img src={Team} width={"100%"} height={300} />
+               <Box component='img' src={Team} sx={{ borderRadius:5,width:"100%", height:300}}>
+              </Box>
               <Typography
                 sx={{
                   marginTop: 3,
@@ -143,7 +145,8 @@ const Actualites = () => {
                 paddingInline: 2,
               }}
             >
-              <img src={Team} width={"100%"} height={300} />
+               <Box component='img' src={Team} sx={{ borderRadius:5,width:"100%", height:300}}>
+              </Box>
               <Typography
                 sx={{
                   marginTop: 3,
